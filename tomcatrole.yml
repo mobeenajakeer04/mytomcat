@@ -16,5 +16,10 @@
     - role: zaxos.tomcat-ansible-role
   tasks:
     get_url:
+<<<<<<< HEAD
         url: https://s3gol.s3.amazonaws.com/gameoflife-web/target/gameoflife.war
         dest: /tomcat/webapps/gameoflife  
+=======
+      url: https://s3gol.s3.amazonaws.com/gameoflife-web/target/gameoflife.war
+      dest: /opt/tomcat/webapps/gameoflife  
+>>>>>>> 47318f5b9bd5ba70017fbd8052347a9321ef5afd
