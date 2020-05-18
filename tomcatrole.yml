@@ -17,4 +17,4 @@
   tasks:
     get_url:
       url: https://s3gol.s3.amazonaws.com/gameoflife-web/target/gameoflife.war
-      dest: /tomcat/webapps/gameoflife  
+      dest: /opt/tomcat/webapps/gameoflife  
